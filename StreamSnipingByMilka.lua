@@ -110,7 +110,7 @@ submitKeyCorner.Parent = submitKeyButton
 -- Fonction Get Key
 getKeyButton.MouseButton1Click:Connect(function()
     if setclipboard then
-        setclipboard("https://loot-link.com/s?X43H0ICh")
+        setclipboard("https://lootdest.org/s?ZWjdpt1Q")
         feedback.Text = "✅ Link copied to clipboard!"
     else
         feedback.Text = "⚠️ Your executor doesn't support setclipboard."
@@ -136,4 +136,5 @@ submitKeyButton.MouseButton1Click:Connect(function()
     else
         player:Kick("Key invalid !")
     end
+
 end)
